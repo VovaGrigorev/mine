@@ -11,6 +11,10 @@
             text-align: center;
         }
         section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             text-decoration: none;
             text-align: center;
         }
@@ -27,11 +31,18 @@
             text-decoration: underline red;
         }
         .a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             border: 10px dashed blue;
-            width: auto;
+            width: 1000px;
             padding: 10px;
             margin-top: 20px;
             margin-bottom: 20px;
+            transition: all 1s ease-out;
+        }
+        .a:hover {
+            transform: scale(1.1);
         }
     </style>
 
